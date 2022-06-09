@@ -10,7 +10,7 @@ public class Product {
 	public int product(int n) {
 		int result = 0;
 		for(int i = 0; i < n; i++) {
-			result = i;
+			result = i * i;
 		}
 		return result;
 	}
